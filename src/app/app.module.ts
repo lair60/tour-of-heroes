@@ -32,7 +32,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     AppRoutingModule,
 	FormsModule
   ],
-  providers: [],
+  providers: [InMemoryDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
